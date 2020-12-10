@@ -1,0 +1,594 @@
+body {
+    font-size: 12px;
+    background: #fff;
+    color: #666;
+    font-family: arial,\5b8b\4f53;
+    overflow-y: scroll\9;
+    *overflow-y: auto;
+  }
+  
+  body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, b, p, img, pre, form, fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+  }
+  
+  table, td, tr, th {
+    font-size: 12px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #666;
+  }
+  
+  table {
+    margin: 0 auto;
+  }
+  
+  img {
+    vertical-align: top;
+    border: 0 none;
+  }
+  
+  ol, ul, li {
+    list-style-type: none;
+  }
+  
+  caption, th {
+    text-align: left;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 12px;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  b, em {
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  .LETTER-RED {
+    color: #ff1a3a !important;
+  }
+
+
+
+
+
+
+// 头部
+  .head-info {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 33px;
+    background: url(http://photo.no5.com.cn/page_2014/images/headbg.jpg) repeat-x;
+    font-family: simsun,arial,Arial Narrow,serif;
+  }
+  
+  .infobox {
+    width: 1200px;
+    height: 33px;
+    line-height: 33px;
+    margin: 0 auto;
+  }
+  
+  .head-welcome {
+    float: left;
+    width: 50%;
+  }
+  
+  .user-control {
+    float: right;
+  }
+  
+  .user-control li {
+    float: left;
+    position: relative;
+    padding-right: 10px;
+  }
+  
+  .user-control .line {
+    color: #ddd;
+  }
+  
+  .user-control .hide {
+    width: 60px;
+    z-index: 1;
+    padding-left: 10px;
+  }
+  
+  .user-control .hide:hover {
+    width: 59px;
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    border-bottom: none;
+    border-top: none;
+  }
+  
+  .user-control .hide:hover .myaccount {
+    display: block;
+    position: absolute;
+    top: 33px;
+    left: -1px;
+    width: 69px;
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    padding-left: 10px;
+    border-top: none;
+  }
+  
+  .user-control .hide:hover .myaccount p {
+    line-height: 20px;
+    height: 20px;
+  }
+  
+  .user-control .hide:hover .myaccount p a:hover {
+    text-decoration: underline;
+    color: #ff1a3a;
+  }
+  
+  .user-control .hide:hover b {
+    top: 13px;
+    right: 7px;
+    width: 7px;
+    height: 4px;
+  }
+  
+  .user-control li b {
+    top: 13px;
+    right: 8px;
+    width: 7px;
+    height: 4px;
+    background: url(../img/detail.gif) no-repeat -252px -30px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .user-control li.tel {
+    color: #ff1a3a;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    font-style: italic;
+  }
+  
+  .user-control li.tel span {
+    width: 16px;
+    height: 13px;
+    top: 9px;
+    left: 7px;
+    background: url(../img/detail.gif) no-repeat -269px -30px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .user-control .myaccount {
+    display: none;
+  }
+  
+  .headbox {
+    width: 1200px;
+    margin: 0 auto;
+    height: 90px;
+  }
+  
+  .headbox div {
+    float: left;
+  }
+  
+  .headbox .logo {
+    width: 320px;
+    padding: 15px 0 0 35px;
+    display: inline;
+  }
+  
+  // 搜索
+  .headbox .searchbox {
+    width: 650px;
+    margin-top: 22px;
+  }
+  
+  .headbox .searchbox a:hover {
+    text-decoration: underline;
+    color: #ef3621;
+  }
+  
+  .headbox .searchbox .hh-item {
+    background-color: #eee;
+  }
+  
+  .headbox .search {
+    width: 428px;
+    height: 30px;
+    background: url(../img/detail.gif) no-repeat 0 -521px;
+    border: 2px solid #02A3F0;
+  }
+  .headbox .shoppingcart .trigger {
+    margin-top: 15px;
+    background: url(../../dist/img/detail.gif) no-repeat 0px -30px;
+    display: block;
+    font-size: 12px;
+    padding-left: 70px;
+    position: relative;
+    width: 125px;
+    z-index: 11;
+    height: 44px;
+    line-height: 44px;
+}
+  .headbox .search:hover {
+    background-position: 0 0;
+  }
+  
+  .headbox .search input {
+    border: none;
+    background: none;
+    float: left;
+    width: 341px;
+    height: 14px;
+    color: #666;
+    font-size: 14px;
+    padding: 8px 10px;
+    outline: 0 none;
+  }
+  
+  .headbox .search strong {
+    width: 67px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    overflow: hidden;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    float: right;
+  }
+  
+  .headbox .hot-key {
+    padding-top: 3px;
+    width: 630px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .headbox .hot-key a {
+    height: 22px;
+    line-height: 22px;
+    padding: 4px;
+  }
+  
+  #search-helper {
+    position: absolute;
+    visibility: hidden;
+    width: 362px;
+    border: 1px solid #02A3F0;
+    background-color: #fff;
+    z-index: 2;
+    margin-top: 31px;
+    margin-left: -2px;
+    *margin-left: -363px;
+    box-shadow: 3px 3px 5px #b8b8b8;
+  }
+  
+  #search-helper li {
+    padding: 5px;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  #search-helper li span {
+    position: absolute;
+    right: 5px;
+    color: #999;
+  }
+  
+  .headbox .searchbox .del-keywords {
+    position: absolute;
+    visibility: hidden;
+    cursor: pointer;
+    margin-left: 340px;
+    margin-top: 2px;
+    padding: 5px;
+    font-size: 14px;
+    *margin-left: -20px;
+  }
+  
+  .headbox .searchbox:hover .del-keywords {
+    visibility: visible;
+  }
+  .mainnav {
+    width: 100%;
+    background: url(http://photo.no5.com.cn/page_2014/images/navbg.jpg) repeat-x;
+    height: 40px;
+    clear: both;
+  }
+  
+  #webf0 strong:first-child {
+    padding-top: 5px;
+  }
+  
+  .navbox {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .navbox .float-list {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../img/detail.gif) no-repeat 0 -117px;
+    z-index: 2;
+  }
+  
+  .navbox .float-list, .navbox .float-list-btn {
+    display: block;
+    width: 230px;
+    z-index: 2;
+    height: 40px;
+    line-height: 40px;
+    cursor: default;
+    color: #fff;
+    font-family: microsoft yahei;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .navbox .subnav {
+    position: absolute;
+    top: 0;
+    left: 230px;
+    width: 960px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-family: microsoft yahei;
+    padding-left: 10px;
+    z-index: 2px;
+  }
+  
+  .navbox .subnav ul li {
+    float: left;
+    padding: 0 30px;
+    background: url(http://photo.no5.com.cn/page_2014/images/navlibg.jpg) no-repeat left center;
+  }
+  
+  .navbox .subnav ul li a {
+    color: #fff;
+    display: block;
+  }
+  
+  .navbox .subnav ul li a:hover {
+    color: #2ad0ff;
+  }
+  
+  
+
+
+  /*尾部*/
+.footer {
+  float: left;
+  width: 100%;
+  height: 200px;
+  background: url(http://photo.no5.com.cn/page_2014/images/f_03.jpg) repeat-x;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.footer .f-cont {
+  width: 1200px;
+  margin: 25px auto;
+}
+
+.footer .f-cont .f-info {
+  float: left;
+  width: 240px;
+  padding-left: 44px;
+}
+
+.footer .f-cont .f-info .tel {
+  background: url(../img/detail.gif) no-repeat 0 -157px;
+  height: 49px;
+  width: 197px;
+}
+
+.footer .f-cont .f-info .tel .num {
+  color: #ff1a3a;
+  font-size: 20px;
+  font-family: Arial;
+  padding-left: 72px;
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+.footer .f-cont .f-info .tel .time {
+  color: #444;
+  text-align: right;
+  width: 197px;
+}
+
+.footer .f-cont .f-info .weibo {
+  background: url(../img/w.jpg) no-repeat;
+  width: 197px;
+  height: 22px;
+  line-height: 22px;
+  font-family: microsoft yahei;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: microsoft yahei;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.footer .f-cont .f-info .weibo a {
+  margin-left: 6px;
+}
+
+.footer .f-cont .f-info .ding {
+  margin-top: 10px;
+}
+
+.footer .f-cont .f-info .ding input {
+  width: 132px;
+  height: 24px;
+  line-height: 24px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  color: #666;
+  padding-left: 4px;
+  font-size: 12px;
+  outline: 0 none;
+}
+
+#subscribe_btn {
+  margin-left: 6px;
+}
+
+.footer .f-cont .f-info .ps {
+  color: #9b9b9b;
+  line-height: 22px;
+  padding-left: 3px;
+}
+
+.footer .f-cont .howto {
+  float: left;
+  width: 100px;
+  padding-left: 25px;
+  border-left: 1px solid #e1e1e1;
+  height: 150px;
+}
+
+.footer .f-cont .howto dt {
+  margin-bottom: 14px;
+}
+
+.footer .f-cont .howto dt a {
+  font-size: 16px;
+  color: #444;
+  font-family: microsoft yahei;
+}
+
+.footer .f-cont .howto dd a {
+  height: 22px;
+  line-height: 22px;
+  color: #999;
+}
+
+.footer .f-cont .lastdl {
+  border-right: 1px solid #e1e1e1;
+}
+
+.footer .f-cont .wei {
+  padding-top: 11px;
+  padding-left: 33px;
+  float: left;
+  background: url(http://photo.no5.com.cn/page_2014/images/ss.jpg) no-repeat 30px 104px;
+  width: 125px;
+  height: 150px;
+}
+
+.footer .f-cont .wei img {
+  border: 1px solid #e1e1e1;
+}
+
+.foot-bottom {
+  width: 880px;
+  border-bottom: 1px solid #ccc;
+  height: 130px;
+  clear: both;
+  margin: 0 auto;
+  padding: 0 160px 0 160px;
+}
+
+.foot-bottom .fb {
+  width: 140px;
+  height: 110px;
+  float: left;
+  margin: 0 40px;
+}
+
+.foot-bottom .fb dt {
+  width: 108px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-left: 16px;
+}
+
+.foot-bottom .fb dd {
+  text-align: center;
+  line-height: 20px;
+  height: 20px;
+  font-size: 13px;
+  color: #444;
+  font-family: microsoft yahei;
+}
+
+.beian {
+  text-align: center;
+  line-height: 44px;
+  height: 44px;
+  font-size: 14px;
+  color: #444;
+  font-family: microsoft yahei;
+}
+
+
+
+#brand-list li {
+  width: 535px;
+  height: 210px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin: 0 10px 20px;
+  overflow: hidden;
+  float: left;
+  cursor: hand;
+  cursor: pointer;
+}
+
+#brand-list li:hover {
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px 5px #bbb;
+}
+
+#brand-list li div {
+  float: left;
+  padding-top: 63px;
+}
+
+#brand-list li img.big {
+  float: right;
+  width: 322px;
+  height: 210px;
+}
+
+#brand-list li img.small {
+  margin-left: 35px;
+  width: 139px;
+  height: 53px;
+}
+
+#brand-list li div p {
+  width: 193px;
+  padding: 10px;
+  line-height: 34px;
+  font-size: 28px;
+  text-align: center;
+}
+
+  
+
+
+

@@ -1,0 +1,349 @@
+@charset "UTF-8";
+.float-list dl dt .hover {
+  background-color: #fff;
+  width: 210px;
+  z-index: 2;
+  border: 1px solid #bdbdbd;
+  border-right: none;
+  border-left: 2px solid #00adff;
+  padding-left: 19px;
+  padding-top: 12px;
+}
+
+.float-list dl dt.hover .arrow-right {
+  top: 16px;
+  right: 17px;
+}
+
+.float-list dl dt a {
+  color: #666;
+}
+
+.float-list dl dt strong {
+  float: left;
+  width: 228px;
+  height: 18px;
+  overflow: hidden;
+  margin: 0 0 4px;
+}
+
+.float-list dl dt strong a {
+  color: #333;
+  font-size: 14px;
+  font-family: microsoft yahei;
+  line-height: 18px;
+}
+
+.float-list dl dt p {
+  clear: both;
+  height: 44px;
+  line-height: 22px;
+  overflow: hidden;
+  font-family: simsun;
+  font-size: 12px;
+}
+
+.float-list dl dt p a {
+  white-space: nowrap;
+  margin-right: 13px;
+  float: left;
+}
+
+.float-list dl dd {
+  display: none;
+  position: absolute;
+  left: 230px;
+  width: 650px;
+  background: #fff;
+  border: 1px solid #bdbdbd;
+  z-index: 1;
+}
+
+.float-list dl dd a {
+  color: #666;
+  white-space: nowrap;
+  /*禁止文字自动换行*/
+}
+
+.float-list dl dd .secondlist {
+  float: left;
+  width: 380px;
+  padding: 0 20px;
+  font-family: simsun;
+  font-size: 12px;
+}
+
+.float-list dl dd .secondlist li {
+  width: 380px;
+  padding: 10px 0;
+  border-bottom: 1px dotted #ccc;
+  line-height: 22px;
+  overflow: hidden;
+}
+
+.float-list dl dd .secondlist li strong {
+  float: left;
+  width: 70px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.float-list dl dd .secondlist li strong a {
+  padding: 0;
+  color: #444;
+}
+
+.float-list dl dd .secondlist li .float-list-cont {
+  float: left;
+  width: 310px;
+}
+
+.float-list dl dd .secondlist li a {
+  padding: 0 13px 0 0;
+}
+
+.float-list dl dd .secondlist li .float-list-cont a {
+  float: left;
+}
+
+.float-list dl dd .hotbrand {
+  float: left;
+  width: 200px;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.float-list dl dd .hotbrand h4 {
+  color: #666;
+  font-family: simsun;
+  border-bottom: 1px solid #666;
+  line-height: 30px;
+  height: 30px;
+  text-align: left;
+}
+
+.float-list dl dd .hotbrand ul {
+  width: 200px;
+  padding: 10px 0;
+  float: left;
+}
+
+.float-list dl dd .hotbrand ul li {
+  border: none;
+  text-align: left;
+  padding-left: 0;
+  font-family: simsun;
+  font-size: 12px;
+  line-height: 22px;
+  float: left;
+  width: 100px;
+}
+
+/*二级页面共有部分*/
+.shaixuan dl {
+  display: none;
+}
+
+.content .current {
+  line-height: 34px;
+  color: #999;
+  width: 980px;
+  height: 34px;
+  margin-top: 15px;
+}
+
+.content .current a {
+  color: #333;
+}
+
+.content .current a:hover {
+  color: #ff1a3a;
+}
+
+.content .current .STYLE {
+  margin: 0 10px;
+}
+
+.content .current .cpname {
+  color: #4e7fc2;
+  margin: 0px;
+}
+
+/*left*/
+.content .c-left {
+  float: left;
+  width: 230px;
+}
+
+.content .c-left .sidebar {
+  width: 228px;
+  border: 1px solid #e4e4e4;
+  color: #333;
+}
+
+.content .c-left .sidebar a {
+  color: #333;
+}
+
+.content .c-left .sidebar a:hover, .content .c-left .sidebar li:hover a {
+  color: #ff1a3a;
+}
+
+.content .c-left .sidebar h3 {
+  width: 228px;
+  background: url(http://photo.no5.com.cn/page_2014/images/h3bg.jpg) repeat-x;
+  height: 36px;
+  line-height: 36px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.content .c-left .sidebar h3 .open {
+  background: url(http://photo.no5.com.cn/page_2014/images/detail.gif?v=20140610) no-repeat 0 -234px;
+  width: 15px;
+  height: 14px;
+  float: left;
+  margin: 10px 10px 0px 12px;
+}
+
+.content .c-left .sidebar h3 .close {
+  background: url(http://photo.no5.com.cn/page_2014/images/detail.gif?v=20140610) no-repeat 0 -248px;
+  width: 15px;
+  height: 14px;
+  float: left;
+  margin: 10px 10px 0px 12px;
+}
+
+.content .c-left .sidebar .sl {
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+  margin-left: 2px;
+}
+
+.content .c-left .sidebar ul {
+  width: 154px;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 8px 37px;
+}
+
+.content .c-left .sidebar ul li {
+  line-height: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.content .c-left .box_tj {
+  width: 228px;
+  border: 1px solid #e4e4e4;
+  margin-top: 10px;
+}
+
+.content .c-left .title_tj {
+  width: 226px;
+  height: 33px;
+  line-height: 33px;
+  margin: 1px;
+  background: url(http://photo.no5.com.cn/page_2014/images/p2lbg.jpg) repeat-x;
+  color: #333;
+  font-family: microsoft yahei;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.content .c-left .good_tj {
+  border-bottom: 1px dashed #e4e4e4;
+  text-align: center;
+  padding: 6px;
+  width: 216px;
+}
+
+.content .c-left .imgbox {
+  width: 120px;
+  height: 120px;
+  margin: 10px auto;
+}
+
+.content .c-left .textbox p {
+  line-height: 20px;
+}
+
+.content .c-left .textbox .proname {
+  width: 210px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  padding: 0 3px;
+}
+
+.content .c-left .textbox .proprice {
+  font-family: microsoft yahei;
+  color: #ff1a3a;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content .c-left .textbox .proprice span {
+  font-family: verdana;
+}
+
+.content .c-left .good_rx {
+  padding: 15px 10px;
+  margin-bottom: 0px;
+  width: 208px;
+  height: 82px;
+  overflow: hidden;
+}
+
+.content .c-left .tl_img {
+  float: left;
+  width: 100px;
+  height: 82px;
+  text-align: left;
+}
+
+.content .c-left .tl_text {
+  float: left;
+  width: 102px;
+  padding-top: 15px;
+}
+
+.content .c-left .tl_text p {
+  line-height: 16px;
+}
+
+.content .c-left .rx_name {
+  text-align: left;
+  height: 30px;
+  overflow: hidden;
+}
+
+.content .c-left .rx_price {
+  text-align: right;
+  margin-top: 8px;
+  font-family: microsoft yahei;
+  color: #ff1a3a;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content .c-left .rx_price span {
+  font-family: verdana;
+}
+
+.content .c-left .good_zj p {
+  line-height: 16px;
+}
+
+.content .c-left .box_tj .lastdiv {
+  border-bottom: none;
+}
+
+/*right*/
+.content .c-right {
+  width: 960px;
+  float: right;
+}

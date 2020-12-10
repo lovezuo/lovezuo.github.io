@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+.float-list dl {
+  display: none;
+}
+
+.brand-top {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.brand-focus {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.freedomarea {
+  width: 100%;
+}
+
+.brand-cont {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.brand-cont .hotgoods {
+  width: 1172px;
+  background: #ff8888;
+  margin: 15px auto;
+  border-bottom: 8px solid #e5e5e5;
+  padding: 30px 14px;
+  display: table;
+}
+
+.brand-cont .hotgoods dl {
+  float: left;
+  width: 224px;
+  height: 310px;
+}
+
+/* 热门产品读取形式 */
+.brand-cont .hotgoods .dudl {
+  width: 204px;
+  height: 290px;
+  margin-right: 13px;
+  background: #fff;
+  padding: 20px 10px 0;
+}
+
+.brand-cont .hotgoods .dudl .adword {
+  background: #d60000;
+  width: 204px;
+  height: 22px;
+  line-height: 22px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0 6px;
+}
+
+.brand-cont .hotgoods .dudl .goodname {
+  line-height: 18px;
+  height: 36px;
+  overflow: hidden;
+}
+
+.brand-cont .hotgoods .dudl .goodname a {
+  color: #333;
+}
+
+/* 热门产品上传图片形式 */
+.brand-cont .hotgoods .imgdl {
+  width: 224px;
+  height: 310px;
+  margin-right: 13px;
+}
+
+.brand-cont .hotgoods .lastdl {
+  margin-right: 0;
+}
+
+/* 热门产品end */
+.brand-cont .brand-list {
+  width: 1200px;
+  clear: both;
+}
+
+.brand-cont .brand-list .b-l-left {
+  width: 228px;
+  border: 1px solid #e4e4e4;
+  float: left;
+}
+
+.brand-cont .brand-list .b-l-left .brand-logo {
+  width: 180px;
+  height: 90px;
+  margin: 10px auto;
+}
+
+.brand-cont .brand-list .b-l-left .brand-story {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.brand-cont .brand-list .b-l-left .brand-story a {
+  color: #333;
+}
+
+/*.brand-cont .brand-list .b-l-left .brandseries{ margin-top:16px;}*/
+.brand-cont .brand-list .b-l-left h2 {
+  width: 228px;
+  height: 35px;
+  line-height: 35px;
+  background: #ff8888;
+  color: #fff;
+  font: normal 14px/38px "Microsoft YaHei";
+  text-indent: 20px;
+}
+
+.brand-cont .brand-list .b-l-left ul .firstli {
+  width: 228px;
+  height: 34px;
+  line-height: 34px;
+  background: url(../images/bslibg.jpg) repeat-x;
+  border-bottom: 1px solid #dcdcdc;
+  font-weight: bold;
+}
+
+.brand-cont .brand-list .b-l-left ul .firstli .firstp {
+  height: 34px;
+  background: url(../images/bspbg.jpg) no-repeat 16px 14px;
+  padding-left: 32px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.brand-cont .brand-list .b-l-left .brandseries li:hover {
+  text-decoration: underline;
+}
+
+.brand-cont .brand-list .b-l-left .kindsbar .secdli {
+  line-height: 30px;
+  height: 30px;
+  padding-left: 40px;
+  border-bottom: 1px dotted #e4e4e4;
+  cursor: pointer;
+}
+
+.brand-cont .brand-list .b-l-left .kindsbar .secdli:hover {
+  text-decoration: underline;
+}
+
+.brand-cont .brand-list .b-l-right .b-s-img {
+  width: 960px;
+}
+
+#theme-color {
+  display: none;
+}

@@ -1,0 +1,290 @@
+.log-reg-box {
+	height: 453px;
+	width: 455px;
+	float: left;
+	margin-top: 40px;
+	padding:0 10px;
+}
+.reg-box {
+	width: 671px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.log-tit {
+	height: 43px;
+	width: 439px;
+	background-image: url(../../dist/img/reg-bg.png);
+	background-repeat: no-repeat;
+	background-position: -162px -153px;
+	margin-bottom: 37px;
+}
+.reg-tit {
+	height: 43px;
+	width: 439px;
+	background-image: url(../../dist/img/reg-bg.png);
+	background-repeat: no-repeat;
+	background-position: -163px -197px;
+	margin-left: 16px;
+	margin-bottom: 37px;
+}
+.single-reg-tit {
+	height: 41px;
+	width: 620px;
+	background-image: url(../../dist/img/reg-bg.png);
+	background-repeat: no-repeat;
+	background-position: -162px -69px;
+	margin-bottom: 37px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.single-reg-fbg {
+	height: 3px;
+	width: 671px;
+	background-image: url(../../dist/img/reg-bg.png);
+	background-repeat: no-repeat;
+	background-position: -161px -435px;
+	margin-bottom: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 18px;
+	}
+.regcom-tit {
+	height: 56px;
+	width: 671px;
+	background-image: url(../../dist/img/reg-bg.png);
+	background-repeat: no-repeat;
+	background-position: -162px -240px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.regcom-tips {
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.user {
+	font-family: Arial;
+	font-size: 12px;
+	color: #02BEFD;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+.user-email {
+	font-family: Arial;
+	font-size: 12px;
+	color: #00CAFE;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+.set {
+	height: 40px;
+	width: 375px;
+	background-color: #F2F2F2;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.set-txt {
+	height: 40px;
+	width: 250px;
+	float: left;
+}
+.tp {
+	font-family: Arial;
+	color: #FF0000;
+	margin-right: 3px;
+	margin-left: 3px;
+	font-size: 14px;
+}
+.regcom-tips ul {
+	margin: 0px;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 155px;
+}
+.regcom-tips ul li {
+	float: left;
+	display: block;
+	height: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+	list-style-type: none;
+	font-size: 12px;
+	line-height: 25px;
+}
+#per-info {
+	height: 42px;
+	width: 179px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.input {
+	height: 55px;
+	margin-left: 50px;
+	font-size: 12px;
+}
+.width60{ width:60px; height:25px; line-height:23px; text-align:right; float:left;}
+.width60 span{ float:right;}
+.width24{ width:24px; height:23px; /* width:20px \9; *width:24px;*/}
+.input a:link {
+	color: #00B6F2;
+	text-decoration: none;
+}
+.input a:visited {
+    color: #00B6F2;
+}
+.input a:hover {
+    color: #FF9900;
+	text-decoration: underline;
+}
+.reg-box a:link {
+color: #0080FF;
+text-decoration: none;
+}
+.reg-box a:visited {
+color: #0080FF;
+}
+.reg-box a:hover {
+	color: #FF9900;
+	text-decoration: underline;
+}
+.fixlogininput {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 200px;
+	padding:2px;
+	border: 1px solid #7f9db9;
+}
+#verifycode-box {
+	height: 20px;
+	width: 180px;
+	float: left;
+}
+.testcode {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border: 1px solid #7f9db9;
+	padding:2px;
+	width: 50px;
+}
+#reg-btn {
+	height: 29px;
+	width: 90px;
+	margin-left: 170px;
+	margin-bottom: 20px;
+}
+.ver-line {
+	background-image: url(../../dist/img/reg-bg.png);
+	background-repeat: no-repeat;
+	height: 403px;
+	width: 1px;
+	float: left;
+	background-position:-928px -83px;
+}
+#login-btn {
+	height: 29px;
+	width: 190px;
+	float: left;
+	margin-left: 132px;
+	display: inline;
+}
+.tip {
+	height: 25px;
+	font-size: 12px;
+	line-height: 25px;
+	padding-left: 65px;
+	*padding-left:0;
+	position: relative;
+	color: #515151;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	white-space: normal;
+}
+.reg_errmsg{
+	color: #ff0000;;	
+}
+.reginputbox {
+	padding-left: 110px;
+}
+.img_right{
+	margin-left: 3px;
+	display: none;
+}
+.input_failure{
+	border: 1px solid Maroon;
+	background-color: #FFFDDF;
+	color: #8B0000;
+}
+.input_focus{
+	border: 1px solid #00008B;
+	background-color: #EAF5FF;
+}
+#lyrSimplePassword{
+	position: absolute;
+	visibility: hidden;
+	width: 230px;
+	border: 1px solid #626262;
+	padding: 1px;
+	background-color: #EEFFFF;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#bcbcbc,direction=135,strength=3);
+	color:#000000;
+}
+#lyrSimplePassword li{
+	list-style-type: none;
+	width: 100px;
+	float: left;
+	padding-left:12px;
+}
+#lyrSimplePassword .tt{
+	background-color: #90C9FF;
+	padding-left:5px;
+}
+#login_loading{
+	visibility: hidden;
+	white-space: normal;
+}
+#login_loading img{
+	position:relative;top:3px;
+}
+.logintip{
+	width: 200px;
+	margin-left:45px;
+	font-weight: bold;
+	color: #FF4500;
+	background-color: #FFF8D2;
+	padding:5px;
+	border: 1px solid #DBDBDB;
+	margin-bottom: 20px;
+}
+#frmUserLogin{
+	margin: 0px;
+}
+.loadingproc{
+	visibility: hidden;
+}
+.loadingproc img{
+	position: relative;
+	top: 4px;
+	margin-right: 3px;
+}
+#divVerifyCode{
+	display: none;
+}
+.gray_border_box {
+    border: 1px solid #C6E6F3;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: left;
+    width: 958px;
+    float: left;
+}

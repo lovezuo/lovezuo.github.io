@@ -1,0 +1,694 @@
+// .head-info {
+//   margin: 0;
+//   padding: 0;
+//   width: 100%;
+//   height: 33px;
+//   background: url(http://photo.no5.com.cn/page_2014/images/headbg.jpg) repeat-x;
+//   font-family: simsun,arial,Arial Narrow,serif;
+// }
+
+// .infobox {
+//   width: 1200px;
+//   height: 33px;
+//   line-height: 33px;
+//   margin: 0 auto;
+// }
+
+// .head-welcome {
+//   float: left;
+//   width: 50%;
+// }
+
+// .user-control {
+//   float: right;
+// }
+
+// .user-control li {
+//   float: left;
+//   position: relative;
+//   padding-right: 10px;
+// }
+
+// .user-control .line {
+//   color: #ddd;
+// }
+
+// .user-control .hide {
+//   width: 60px;
+//   z-index: 1;
+//   padding-left: 10px;
+// }
+
+// .user-control .hide:hover {
+//   width: 59px;
+//   background: #fff;
+//   border: 1px solid #dcdcdc;
+//   border-bottom: none;
+//   border-top: none;
+// }
+
+// .user-control .hide:hover .myaccount {
+//   display: block;
+//   position: absolute;
+//   top: 33px;
+//   left: -1px;
+//   width: 69px;
+//   background: #fff;
+//   border: 1px solid #dcdcdc;
+//   padding-left: 10px;
+//   border-top: none;
+// }
+
+// .user-control .hide:hover .myaccount p {
+//   line-height: 20px;
+//   height: 20px;
+// }
+
+// .user-control .hide:hover .myaccount p a:hover {
+//   text-decoration: underline;
+//   color: #ff1a3a;
+// }
+
+// .user-control .hide:hover b {
+//   top: 13px;
+//   right: 7px;
+//   width: 7px;
+//   height: 4px;
+// }
+
+// .user-control li b {
+//   top: 13px;
+//   right: 8px;
+//   width: 7px;
+//   height: 4px;
+//   background: url(http://photo.no5.com.cn/page_2014/images/detail.gif?v=20140610) no-repeat -252px -30px;
+//   position: absolute;
+//   overflow: hidden;
+// }
+
+// .user-control li.tel {
+//   color: #ff1a3a;
+//   font-size: 18px;
+//   font-family: Arial, Helvetica, sans-serif;
+//   padding-left: 30px;
+//   font-style: italic;
+// }
+
+// .user-control li.tel span {
+//   width: 16px;
+//   height: 13px;
+//   top: 9px;
+//   left: 7px;
+//   background: url(http://photo.no5.com.cn/page_2014/images/detail.gif?v=20140610) no-repeat -269px -30px;
+//   position: absolute;
+//   overflow: hidden;
+// }
+
+// .user-control .myaccount {
+//   display: none;
+// }
+
+// .headbox {
+//   width: 1200px;
+//   margin: 0 auto;
+//   height: 90px;
+// }
+
+// .headbox div {
+//   float: left;
+// }
+
+// .headbox .logo {
+//   width: 320px;
+//   padding: 15px 0 0 35px;
+//   display: inline;
+// }
+
+
+// .headbox .searchbox {
+//   width: 650px;
+//   margin-top: 22px;
+// }
+
+// .headbox .searchbox a:hover {
+//   text-decoration: underline;
+//   color: #ef3621;
+// }
+
+// .headbox .searchbox .hh-item {
+//   background-color: #eee;
+// }
+
+// .headbox .search {
+//   width: 428px;
+//   height: 30px;
+//   background: url(http://photo.no5.com.cn/page_2014/images/detail.gif?v=20140610) no-repeat 0 -521px;
+//   border: 2px solid #02A3F0;
+// }
+
+// .headbox .search:hover {
+//   background-position: 0 0;
+// }
+
+// .headbox .search input {
+//   border: none;
+//   background: none;
+//   float: left;
+//   width: 341px;
+//   height: 14px;
+//   color: #666;
+//   font-size: 14px;
+//   padding: 8px 10px;
+//   outline: 0 none;
+// }
+
+// .headbox .search strong {
+//   width: 67px;
+//   height: 30px;
+//   line-height: 30px;
+//   cursor: pointer;
+//   overflow: hidden;
+//   color: #fff;
+//   font-size: 14px;
+//   text-align: center;
+//   float: right;
+// }
+
+// .headbox .hot-key {
+//   padding-top: 3px;
+//   width: 630px;
+//   overflow: hidden;
+//   white-space: nowrap;
+// }
+
+// .headbox .hot-key a {
+//   height: 22px;
+//   line-height: 22px;
+//   padding: 4px;
+// }
+
+// #search-helper {
+//   position: absolute;
+//   visibility: hidden;
+//   width: 362px;
+//   border: 1px solid #02A3F0;
+//   background-color: #fff;
+//   z-index: 2;
+//   margin-top: 31px;
+//   margin-left: -2px;
+//   *margin-left: -363px;
+//   box-shadow: 3px 3px 5px #b8b8b8;
+// }
+
+// #search-helper li {
+//   padding: 5px;
+//   cursor: pointer;
+//   color: #000;
+// }
+
+// #search-helper li span {
+//   position: absolute;
+//   right: 5px;
+//   color: #999;
+// }
+
+// .headbox .searchbox .del-keywords {
+//   position: absolute;
+//   visibility: hidden;
+//   cursor: pointer;
+//   margin-left: 340px;
+//   margin-top: 2px;
+//   padding: 5px;
+//   font-size: 14px;
+//   *margin-left: -20px;
+// }
+
+// .headbox .searchbox:hover .del-keywords {
+//   visibility: visible;
+// }
+
+
+
+
+// .mainnav {
+//   width: 100%;
+//   background: url(http://photo.no5.com.cn/page_2014/images/navbg.jpg) repeat-x;
+//   height: 40px;
+//   clear: both;
+// }
+
+// #webf0 strong:first-child {
+//   padding-top: 5px;
+// }
+
+// .navbox {
+//   width: 1200px;
+//   margin: 0 auto;
+//   position: relative;
+//   z-index: 1;
+// }
+
+// .navbox .float-list {
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   background: url(http://photo.no5.com.cn/page_2014/images/detail.gif?v=20140610) no-repeat 0 -117px;
+//   z-index: 2;
+// }
+
+// .navbox .float-list, .navbox .float-list-btn {
+//   display: block;
+//   width: 230px;
+//   z-index: 2;
+//   height: 40px;
+//   line-height: 40px;
+//   cursor: default;
+//   color: #fff;
+//   font-family: microsoft yahei;
+//   text-align: center;
+//   font-size: 16px;
+// }
+
+// .navbox .subnav {
+//   position: absolute;
+//   top: 0;
+//   left: 230px;
+//   width: 960px;
+//   height: 40px;
+//   line-height: 40px;
+//   font-size: 16px;
+//   font-family: microsoft yahei;
+//   padding-left: 10px;
+//   z-index: 2px;
+// }
+
+// .navbox .subnav ul li {
+//   float: left;
+//   padding: 0 30px;
+//   background: url(http://photo.no5.com.cn/page_2014/images/navlibg.jpg) no-repeat left center;
+// }
+
+// .navbox .subnav ul li a {
+//   color: #fff;
+//   display: block;
+// }
+
+// .navbox .subnav ul li a:hover {
+//   color: #2ad0ff;
+// }
+
+
+
+
+
+.float-list dl dt .hover {
+  background-color: #fff;
+  width: 210px;
+  z-index: 2;
+  border: 1px solid #bdbdbd;
+  border-right: none;
+  border-left: 2px solid #00adff;
+  padding-left: 19px;
+  padding-top: 12px;
+}
+
+.float-list dl dt.hover .arrow-right {
+  top: 16px;
+  right: 17px;
+}
+
+.float-list dl dt a {
+  color: #666;
+}
+
+.float-list dl dt strong {
+  float: left;
+  width: 228px;
+  height: 18px;
+  overflow: hidden;
+  margin: 0 0 4px;
+}
+
+.float-list dl dt strong a {
+  color: #333;
+  font-size: 14px;
+  font-family: microsoft yahei;
+  line-height: 18px;
+}
+
+.float-list dl dt p {
+  clear: both;
+  height: 44px;
+  line-height: 22px;
+  overflow: hidden;
+  font-family: simsun;
+  font-size: 12px;
+}
+
+.float-list dl dt p a {
+  white-space: nowrap;
+  margin-right: 13px;
+  float: left;
+}
+
+.float-list dl dd {
+  display: none;
+  position: absolute;
+  left: 230px;
+  width: 650px;
+  background: #fff;
+  border: 1px solid #bdbdbd;
+  z-index: 1;
+}
+
+.float-list dl dd a {
+  color: #666;
+  white-space: nowrap;
+  /*禁止文字自动换行*/
+}
+
+.float-list dl dd .secondlist {
+  float: left;
+  width: 380px;
+  padding: 0 20px;
+  font-family: simsun;
+  font-size: 12px;
+}
+
+.float-list dl dd .secondlist li {
+  width: 380px;
+  padding: 10px 0;
+  border-bottom: 1px dotted #ccc;
+  line-height: 22px;
+  overflow: hidden;
+}
+
+.float-list dl dd .secondlist li strong {
+  float: left;
+  width: 70px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.float-list dl dd .secondlist li strong a {
+  padding: 0;
+  color: #444;
+}
+
+.float-list dl dd .secondlist li .float-list-cont {
+  float: left;
+  width: 310px;
+}
+
+.float-list dl dd .secondlist li a {
+  padding: 0 13px 0 0;
+}
+
+.float-list dl dd .secondlist li .float-list-cont a {
+  float: left;
+}
+
+.float-list dl dd .hotbrand {
+  float: left;
+  width: 200px;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.float-list dl dd .hotbrand h4 {
+  color: #666;
+  font-family: simsun;
+  border-bottom: 1px solid #666;
+  line-height: 30px;
+  height: 30px;
+  text-align: left;
+}
+
+.float-list dl dd .hotbrand ul {
+  width: 200px;
+  padding: 10px 0;
+  float: left;
+}
+
+.float-list dl dd .hotbrand ul li {
+  border: none;
+  text-align: left;
+  padding-left: 0;
+  font-family: simsun;
+  font-size: 12px;
+  line-height: 22px;
+  float: left;
+  width: 100px;
+}
+// /*尾部*/
+// .footer {
+//   float: left;
+//   width: 100%;
+//   height: 200px;
+//   background: url(http://photo.no5.com.cn/page_2014/images/f_03.jpg) repeat-x;
+//   border-top: 1px solid #e1e1e1;
+//   border-bottom: 1px solid #e1e1e1;
+//   margin: 30px auto;
+//   overflow: hidden;
+// }
+
+// .footer .f-cont {
+//   width: 1200px;
+//   margin: 25px auto;
+// }
+
+// .footer .f-cont .f-info {
+//   float: left;
+//   width: 240px;
+//   padding-left: 44px;
+// }
+
+// .footer .f-cont .f-info .tel {
+//   background: url(http://photo.no5.com.cn/page_2014/images/detail.gif?v=20140610) no-repeat 0 -157px;
+//   height: 49px;
+//   width: 197px;
+// }
+
+// .footer .f-cont .f-info .tel .num {
+//   color: #ff1a3a;
+//   font-size: 20px;
+//   font-family: Arial;
+//   padding-left: 72px;
+//   font-style: italic;
+//   font-weight: bold;
+//   padding-top: 8px;
+// }
+
+// .footer .f-cont .f-info .tel .time {
+//   color: #444;
+//   text-align: right;
+//   width: 197px;
+// }
+
+// .footer .f-cont .f-info .weibo {
+//   background: url(http://photo.no5.com.cn/page_2014/images/w.jpg) no-repeat;
+//   width: 197px;
+//   height: 22px;
+//   line-height: 22px;
+//   font-family: microsoft yahei;
+//   margin-top: 10px;
+//   font-size: 14px;
+//   font-family: microsoft yahei;
+//   font-weight: bold;
+//   padding-left: 30px;
+// }
+
+// .footer .f-cont .f-info .weibo a {
+//   margin-left: 6px;
+// }
+
+// .footer .f-cont .f-info .ding {
+//   margin-top: 10px;
+// }
+
+// .footer .f-cont .f-info .ding input {
+//   width: 132px;
+//   height: 24px;
+//   line-height: 24px;
+//   background: #fff;
+//   border: 1px solid #e8e8e8;
+//   color: #666;
+//   padding-left: 4px;
+//   font-size: 12px;
+//   outline: 0 none;
+// }
+
+// #subscribe_btn {
+//   margin-left: 6px;
+// }
+
+// .footer .f-cont .f-info .ps {
+//   color: #9b9b9b;
+//   line-height: 22px;
+//   padding-left: 3px;
+// }
+
+// .footer .f-cont .howto {
+//   float: left;
+//   width: 100px;
+//   padding-left: 25px;
+//   border-left: 1px solid #e1e1e1;
+//   height: 150px;
+// }
+
+// .footer .f-cont .howto dt {
+//   margin-bottom: 14px;
+// }
+
+// .footer .f-cont .howto dt a {
+//   font-size: 16px;
+//   color: #444;
+//   font-family: microsoft yahei;
+// }
+
+// .footer .f-cont .howto dd a {
+//   height: 22px;
+//   line-height: 22px;
+//   color: #999;
+// }
+
+// .footer .f-cont .lastdl {
+//   border-right: 1px solid #e1e1e1;
+// }
+
+// .footer .f-cont .wei {
+//   padding-top: 11px;
+//   padding-left: 33px;
+//   float: left;
+//   background: url(http://photo.no5.com.cn/page_2014/images/ss.jpg) no-repeat 30px 104px;
+//   width: 125px;
+//   height: 150px;
+// }
+
+// .footer .f-cont .wei img {
+//   border: 1px solid #e1e1e1;
+// }
+
+// .foot-bottom {
+//   width: 880px;
+//   border-bottom: 1px solid #ccc;
+//   height: 130px;
+//   clear: both;
+//   margin: 0 auto;
+//   padding: 0 160px 0 160px;
+// }
+
+// .foot-bottom .fb {
+//   width: 140px;
+//   height: 110px;
+//   float: left;
+//   margin: 0 40px;
+// }
+
+// .foot-bottom .fb dt {
+//   width: 108px;
+//   height: 50px;
+//   margin-bottom: 10px;
+//   margin-left: 16px;
+// }
+
+// .foot-bottom .fb dd {
+//   text-align: center;
+//   line-height: 20px;
+//   height: 20px;
+//   font-size: 13px;
+//   color: #444;
+//   font-family: microsoft yahei;
+// }
+
+// .beian {
+//   text-align: center;
+//   line-height: 44px;
+//   height: 44px;
+//   font-size: 14px;
+//   color: #444;
+//   font-family: microsoft yahei;
+// }
+
+// #brand-list li {
+//   width: 535px;
+//   height: 210px;
+//   border: 1px solid #ddd;
+//   padding: 5px;
+//   margin: 0 10px 20px;
+//   overflow: hidden;
+//   float: left;
+//   cursor: hand;
+//   cursor: pointer;
+// }
+
+// #brand-list li:hover {
+//   border: 1px solid #ccc;
+//   box-shadow: 3px 3px 5px #bbb;
+// }
+
+// #brand-list li div {
+//   float: left;
+//   padding-top: 63px;
+// }
+
+// #brand-list li img.big {
+//   float: right;
+//   width: 322px;
+//   height: 210px;
+// }
+
+// #brand-list li img.small {
+//   margin-left: 35px;
+//   width: 139px;
+//   height: 53px;
+// }
+
+// #brand-list li div p {
+//   width: 193px;
+//   padding: 10px;
+//   line-height: 34px;
+//   font-size: 28px;
+//   text-align: center;
+// }
+
+
+
+
+/*二级页面共有部分*/
+.shaixuan dl { display: none; }
+.content .current { line-height: 34px; color: #999; width: 980px; height: 34px; margin-top: 15px; }
+.content .current a { color: #333; }
+.content .current a:hover { color: #ff1a3a; }
+.content .current .STYLE { margin: 0 10px; }
+.content .current .cpname { color: #4e7fc2; margin: 0px; }
+/*left*/
+.content .c-left { float: left; width: 230px; }
+.content .c-left .sidebar { width: 228px; border: 1px solid #e4e4e4; color: #333; }
+.content .c-left .sidebar a { color: #333; }
+.content .c-left .sidebar a:hover, .content .c-left .sidebar li:hover a { color: #ff1a3a; }
+.content .c-left .sidebar h3 { width: 228px; background: url(http://photo.no5.com.cn/page_2014/images/h3bg.jpg) repeat-x; height: 36px; line-height: 36px; cursor: pointer; font-size: 13px; }
+.content .c-left .sidebar h3 .open { background: url(http://photo.no5.com.cn/page_2014/images/detail.gif?v=20140610) no-repeat 0 -234px; width: 15px; height: 14px; float: left; margin: 10px 10px 0px 12px; }
+.content .c-left .sidebar h3 .close { background: url(http://photo.no5.com.cn/page_2014/images/detail.gif?v=20140610) no-repeat 0 -248px; width: 15px; height: 14px; float: left; margin: 10px 10px 0px 12px; }
+.content .c-left .sidebar .sl { font-size: 12px; color: #999; font-weight: normal; margin-left: 2px; }
+.content .c-left .sidebar ul { width: 154px; border-bottom: 1px solid #e4e4e4; padding: 8px 37px; }
+.content .c-left .sidebar ul li { line-height: 26px; height: 26px; cursor: pointer; }
+.content .c-left .box_tj { width: 228px; border: 1px solid #e4e4e4; margin-top: 10px; }
+.content .c-left .title_tj { width: 226px; height: 33px; line-height: 33px; margin: 1px; background: url(http://photo.no5.com.cn/page_2014/images/p2lbg.jpg) repeat-x; color: #333; font-family: microsoft yahei; font-size: 14px; font-weight: bold; text-align: center; border-bottom: 1px solid #e4e4e4; }
+.content .c-left .good_tj { border-bottom: 1px dashed #e4e4e4; text-align: center; padding: 6px; width: 216px; }
+.content .c-left .imgbox { width: 120px; height: 120px; margin: 10px auto; }
+.content .c-left .textbox p { line-height: 20px; }
+.content .c-left .textbox .proname { width: 210px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: center; padding: 0 3px; }
+.content .c-left .textbox .proprice { font-family: microsoft yahei; color: #ff1a3a; font-size: 14px; font-weight: bold; }
+.content .c-left .textbox .proprice span { font-family: verdana; }
+.content .c-left .good_rx { padding: 15px 10px; margin-bottom: 0px; width: 208px; height: 82px; overflow: hidden; }
+.content .c-left .tl_img { float: left; width: 100px; height: 82px; text-align: left; }
+.content .c-left .tl_text { float: left; width: 102px; padding-top: 15px; }
+.content .c-left .tl_text p { line-height: 16px; }
+.content .c-left .rx_name { text-align: left; height: 30px; overflow: hidden; }
+.content .c-left .rx_price { text-align: right; margin-top: 8px; font-family: microsoft yahei; color: #ff1a3a; font-size: 14px; font-weight: bold; }
+.content .c-left .rx_price span { font-family: verdana; }
+.content .c-left .good_zj p { line-height: 16px; }
+.content .c-left .box_tj .lastdiv { border-bottom: none; }
+/*right*/
+.content .c-right { width: 960px; float: right; }
